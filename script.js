@@ -3,7 +3,7 @@ var searchQuery;
 var searchResult;
 
 $('document').ready(function () {
-    $('.card').hide();
+    $('.card').hide();  
 
     // clear input on focus
     $('input').on('focus', function() {
