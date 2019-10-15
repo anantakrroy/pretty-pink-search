@@ -35,7 +35,7 @@ function createResultList() {
         if (searchResult[i].Text) {
             $("<li/>").attr("id", "result" + i).appendTo('ul')
             $("<h6/>").attr({ "id": "result" + i, "class": "m-2 p-2" }).text(searchResult[i].Text).appendTo('#result' + i);
-            $("<a/>").attr("class", "card-subtitle").text(searchResult[i].FirstURL).appendTo('#result'+i);
+            $("<a/>").attr({ "class": "card-subtitle", "href": searchResult[i].FirstURL, "target" : "_blank" }).text("Read more...").appendTo('#result' + i);
         } else {
             for (var j = 0; j < searchResult[i].Topics.length; j++) {
                 $("<li/>").attr("id", "result" + i + j).appendTo('ul')
