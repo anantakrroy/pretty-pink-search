@@ -30,6 +30,7 @@ function creatResultCard() {
 }
 
 function createResultList() {
+    $('ul').hide();
     searchResult = responseData.RelatedTopics;
     for (var i = 0; i < searchResult.length; i++) {
         if (searchResult[i].Text) {
@@ -45,4 +46,5 @@ function createResultList() {
         }
 
     }
+    $('ul').fadeIn(1200);
 }
