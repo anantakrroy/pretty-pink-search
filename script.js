@@ -4,6 +4,13 @@ var searchResult;
 
 $('document').ready(function () {
     $('.card').hide();
+
+    // clear input on focus
+    $('input').on('focus', function() {
+        $('input').val('');
+    });
+
+    // on search click
     $('#searchQuery').on('click', function () {
         $('.card').show();
         $('li').remove();
