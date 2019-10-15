@@ -1,0 +1,72 @@
+body {
+    margin: 10px 30px;
+    border:solid rgb(235, 5, 139) 2px;
+    background-color:  rgb(235, 183, 213);
+}
+
+img {
+    max-width: 60px;
+    max-height: 70px;
+    border: solid rgb(235, 5, 139) 2px;
+}
+
+.input-group {
+    width: 70% !important;
+}
+
+input {
+    height: 50px !important;
+    border: solid rgb(235, 5, 139) 2px !important;
+}
+
+span {
+    height: 50px;
+    border: solid rgb(235, 5, 139) 2px !important;  
+}
+
+.input-group-append {
+    background-color: darkorchid !important;
+}
+
+a {
+    color: rgb(205, 147, 216);
+    margin-left: 8px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#searchHeading {
+    color: rgb(10, 10, 10);
+}
+
+.card {
+    border: solid rgb(230, 34, 148) 2px;
+}
+
+.card-body {
+    height: 50%;
+}
+
+#card-heading {
+    color: rgb(21, 88, 231);
+    padding: 5px;
+}
+
+.card-subtitle {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+    padding: 5px;
+}
+
+li {
+    border: solid rgb(218, 127, 180) 1px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    background-color:#fff;
+}

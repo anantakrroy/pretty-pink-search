@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search Engine</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 d-inline-flex mx-auto m-5">
+                <img src="logo.png" class="m-4">
+                <div class="input-group m-4">
+                    <input class="form-control" type="text" placeholder="Search...">
+                    <div class="input-group-append">
+                        <a id="searchQuery"><span class="input-group-text">Search</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row my-2">
+            <div class="col-md-10 mx-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title" id="card-heading"></h1>
+                        <h6 class="card-subtitle"><a id="subtitleLink"></a></h6>
+                        <p class="lead"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-md-10 mx-auto">
+                <h4 class="display-6 font-weight-lighter text-capitalize" id="searchHeading"></h4>
+            </div>
+            <div class="col-md-10 mx-auto" id="searchResults">
+                <ul style="list-style: none;"></ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
